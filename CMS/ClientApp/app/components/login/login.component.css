@@ -1,0 +1,171 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+ol, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/*****************************************************************************/
+
+.login-body {
+    background: url("/images/login-bg.jpg");
+    background-size: cover;
+    font-family: 'Arimo', sans-serif;
+}
+
+.login-white-box {
+    max-width: 380px;
+    padding: 20px;
+    margin: 0 auto;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.top-logo {
+    margin: 30px 0 40px
+}
+
+.form-input input {
+    text-align: right;
+    border-radius: 2px;
+    height: 46px;
+    box-shadow: inherit !important;
+    border: 1px solid #dddddd;
+}
+
+.sign-up-btn {
+    margin: 20px 0 0
+}
+
+    .sign-up-btn button {
+        background: #23486d !important;
+        width: 100%;
+        color: #fff;
+        border: none;
+        margin: 0 0 10px;
+        font-size: 18px;
+        border-radius: 2px;
+        letter-spacing: 1px;
+        padding: 10px 15px;
+        outline: inherit !important;
+    }
+
+        .sign-up-btn button:hover {
+            background: #143d65;
+            color: #fff;
+        }
+
+        .sign-up-btn button:active {
+            background: #143d65;
+            color: #fff;
+        }
+
+        .sign-up-btn button:focus {
+            background: #143d65;
+            color: #fff;
+        }
+
+        .sign-up-btn button:last-child {
+            margin: 0;
+        }
+
+.form-section .checkbox {
+    text-align: center;
+    padding: 10px 0
+}
+
+.form-section .form-group {
+    display: inline-block;
+    width: 100%;
+}
+
+.form-section label.checkbox-label {
+    margin: 0;
+    padding: 0;
+    margin-right: 20px;
+}
+
+.login-page-center {
+    margin: 10% 0 0;
+    padding: 0 15px
+}
+
+.checkbox label {
+    display: inline-block;
+    position: relative;
+    padding-left: 5px;
+}
+
+    .checkbox label::before {
+        content: "";
+        display: inline-block;
+        position: absolute;
+        width: 17px;
+        height: 17px;
+        right: 0;
+        margin-right: -20px;
+        border: 1px solid #23486d;
+        border-radius: 2px;
+        background-color: #fff;
+        top: 2px;
+        -webkit-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+        -o-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+        transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+    }
+
+    .checkbox label::after {
+        display: inline-block;
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        right: 0;
+        top: 0;
+        margin-right: -19px; /* padding-left: 3px; */
+        padding-top: 1px;
+        font-size: 11px;
+        color: #555555;
+        top: 2px;
+    }
+
+.checkbox input[type="checkbox"] {
+    opacity: 0;
+}
+
+    .checkbox input[type="checkbox"]:focus + label::before {
+        outline: thin dotted;
+        outline: 5px auto -webkit-focus-ring-color;
+        outline-offset: -2px;
+    }
+
+    .checkbox input[type="checkbox"]:checked + label::after {
+        font-family: 'FontAwesome';
+        content: "\f00c";
+    }
+
+    .checkbox input[type="checkbox"]:disabled + label {
+        opacity: 0.65;
+    }
+
+        .checkbox input[type="checkbox"]:disabled + label::before {
+            background-color: #eeeeee;
+            cursor: not-allowed;
+        }
+
+
+
+@media(max-width:767px) {
+
+
+    .sign-up-btn button {
+        font-size: 13px;
+    }
+}

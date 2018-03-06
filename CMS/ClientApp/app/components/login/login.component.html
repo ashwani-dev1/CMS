@@ -1,0 +1,54 @@
+﻿
+
+<style>
+
+    .container-fluid {
+        background: url("images/login-bg.jpg");
+        background-size: cover;
+        font-family: 'Arimo', sans-serif;
+        background-position: center;
+        height: 100vh;
+    }
+</style>
+
+<div class='container-fluid'>
+    <div class="login-body1 ">
+        <div class="login-page">
+            <div class="login-page-center">
+                <div class="login-white-box">
+                    <div class="top-logo text-center">
+                        <img src="/images/logo.png">
+                    </div>
+                    <div class="form-section">
+                        <form>
+                            <div class="form-group">
+                                <div class="form-input">
+                                    <input type="email" class="form-control" [(ngModel)]="username" name="username" placeholder="שם משתמש"><!--id="exampleInputEmail1"-->
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="form-input">
+                                    <input type="password" class="form-control" [(ngModel)]="password" name="password" placeholder="סיסמא​"> <!--id="exampleInputPassword1"-->
+                                </div>
+                            </div>
+                            <div class="sign-up-btn">
+                                <button class="btn btn-default" (click)="PasswordLogin()">היכנס באמצעות סיסמא קבועה​​</button>
+                                <button class="btn btn-default" (click)="OTPLogin()">היכנס באמצעות סיסמא חד פעמית​</button>
+                            </div>
+                            <div class="checkbox">
+                                <input id="checkbox1" type="checkbox"><label class="checkbox-label" for="checkbox1"> זכור אותי​</label>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
