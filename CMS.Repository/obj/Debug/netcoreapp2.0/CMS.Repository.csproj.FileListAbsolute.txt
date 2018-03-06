@@ -1,0 +1,13 @@
+F:\Ashwani\Projects\CustomerManagement\CMS\CMS.Repository\obj\Debug\netcoreapp2.0\CMS.Repository.csprojResolveAssemblyReference.cache
+F:\Ashwani\Projects\CustomerManagement\CMS\CMS.Repository\obj\Debug\netcoreapp2.0\CMS.Repository.csproj.CoreCompileInputs.cache
+F:\Ashwani\Projects\CustomerManagement\CMS\CMS.Repository\obj\Debug\netcoreapp2.0\CMS.Repository.AssemblyInfoInputs.cache
+F:\Ashwani\Projects\CustomerManagement\CMS\CMS.Repository\obj\Debug\netcoreapp2.0\CMS.Repository.AssemblyInfo.cs
+F:\Ashwani\Projects\CustomerManagement\CMS\CMS.Repository\bin\Debug\netcoreapp2.0\CMS.Repository.deps.json
+F:\Ashwani\Projects\CustomerManagement\CMS\CMS.Repository\bin\Debug\netcoreapp2.0\CMS.Repository.dll
+F:\Ashwani\Projects\CustomerManagement\CMS\CMS.Repository\bin\Debug\netcoreapp2.0\CMS.Repository.pdb
+F:\Ashwani\Projects\CustomerManagement\CMS\CMS.Repository\bin\Debug\netcoreapp2.0\CMS.DB.dll
+F:\Ashwani\Projects\CustomerManagement\CMS\CMS.Repository\bin\Debug\netcoreapp2.0\CMS.Model.dll
+F:\Ashwani\Projects\CustomerManagement\CMS\CMS.Repository\bin\Debug\netcoreapp2.0\CMS.DB.pdb
+F:\Ashwani\Projects\CustomerManagement\CMS\CMS.Repository\bin\Debug\netcoreapp2.0\CMS.Model.pdb
+F:\Ashwani\Projects\CustomerManagement\CMS\CMS.Repository\obj\Debug\netcoreapp2.0\CMS.Repository.dll
+F:\Ashwani\Projects\CustomerManagement\CMS\CMS.Repository\obj\Debug\netcoreapp2.0\CMS.Repository.pdb
